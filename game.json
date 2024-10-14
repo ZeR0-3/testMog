@@ -1,0 +1,375 @@
+{
+	"width": 640,
+	"height": 360,
+	"fps": 30,
+	"main": "./script/_bootstrap.js",
+	"assets": {
+		"player": {
+			"type": "image",
+			"width": 32,
+			"height": 32,
+			"path": "image/player.png"
+		},
+		"shot": {
+			"type": "image",
+			"width": 16,
+			"height": 16,
+			"path": "image/shot.png"
+		},
+		"se": {
+			"type": "audio",
+			"path": "audio/se",
+			"systemId": "sound",
+			"duration": 250,
+			"hint": {
+				"extensions": [
+					".aac",
+					".ogg"
+				]
+			}
+		},
+		"_bootstrap": {
+			"type": "script",
+			"path": "script/_bootstrap.js",
+			"global": true
+		},
+		"main": {
+			"type": "script",
+			"path": "script/main.js",
+			"global": true
+		},
+		"parameterObject": {
+			"type": "script",
+			"path": "script/parameterObject.js",
+			"global": true
+		},
+		"AbsMScene": {
+			"type": "script",
+			"path": "script/AbsMScene.js",
+			"global": true
+		},
+		"AbsBaseChar": {
+			"type": "script",
+			"path": "script/Char/AbsBaseChar.js",
+			"global": true
+		},
+		"Move1": {
+			"type": "script",
+			"path": "script/Char/CharMovePattan/Move1.js",
+			"global": true
+		},
+		"P1": {
+			"type": "script",
+			"path": "script/Char/P1.js",
+			"global": true
+		},
+		"P2": {
+			"type": "script",
+			"path": "script/Char/P2.js",
+			"global": true
+		},
+		"Tch": {
+			"type": "script",
+			"path": "script/Char/Tch.js",
+			"global": true
+		},
+		"Time": {
+			"type": "script",
+			"path": "script/Char/Time.js",
+			"global": true
+		},
+		"GameStateManager": {
+			"type": "script",
+			"path": "script/GameStateManager.js",
+			"global": true
+		},
+		"IGameState": {
+			"type": "script",
+			"path": "script/IGameState.js",
+			"global": true
+		},
+		"ISceneTime": {
+			"type": "script",
+			"path": "script/ISceneTime.js",
+			"global": true
+		},
+		"IUpdate": {
+			"type": "script",
+			"path": "script/IUpdate.js",
+			"global": true
+		},
+		"MScene5": {
+			"type": "script",
+			"path": "script/MScene5.js",
+			"global": true
+		},
+		"UpdateManager": {
+			"type": "script",
+			"path": "script/UpdateManager.js",
+			"global": true
+		},
+		"Utl": {
+			"type": "script",
+			"path": "script/Utl.js",
+			"global": true
+		},
+		"__main": {
+			"type": "script",
+			"path": "script/__main.js",
+			"global": true
+		},
+		"ana": {
+			"type": "image",
+			"path": "image/ana.png",
+			"width": 112,
+			"height": 96
+		},
+		"bg": {
+			"type": "image",
+			"path": "image/bg.png",
+			"width": 640,
+			"height": 340
+		},
+		"bg1": {
+			"type": "image",
+			"path": "image/bg1.png",
+			"width": 640,
+			"height": 340
+		},
+		"font": {
+			"type": "image",
+			"path": "image/font.png",
+			"width": 1024,
+			"height": 836
+		},
+		"gameend": {
+			"type": "image",
+			"path": "image/gameend.png",
+			"width": 640,
+			"height": 340
+		},
+		"hajime": {
+			"type": "image",
+			"path": "image/hajime.png",
+			"width": 640,
+			"height": 360
+		},
+		"moguraall": {
+			"type": "image",
+			"path": "image/moguraall.png",
+			"width": 224,
+			"height": 96
+		},
+		"moguraallb": {
+			"type": "image",
+			"path": "image/moguraallb.png",
+			"width": 224,
+			"height": 96
+		},
+		"moguraallr": {
+			"type": "image",
+			"path": "image/moguraallr.png",
+			"width": 216,
+			"height": 86
+		},
+		"moguraSetumei": {
+			"type": "image",
+			"path": "image/moguraSetumei.png",
+			"width": 640,
+			"height": 340
+		},
+		"player copy": {
+			"type": "image",
+			"path": "image/player copy.png",
+			"width": 32,
+			"height": 32
+		},
+		"shot copy": {
+			"type": "image",
+			"path": "image/shot copy.png",
+			"width": 16,
+			"height": 16
+		},
+		"titile": {
+			"type": "image",
+			"path": "image/titile.png",
+			"width": 640,
+			"height": 340
+		},
+		"Config": {
+			"type": "script",
+			"path": "script/Config.js",
+			"global": true
+		},
+		"TitleState": {
+			"type": "script",
+			"path": "script/State/TitleState.js",
+			"global": true
+		},
+		"EndingState": {
+			"type": "script",
+			"path": "script/State/EndingState.js",
+			"global": true
+		},
+		"MainGameState": {
+			"type": "script",
+			"path": "script/State/MainGameState.js",
+			"global": true
+		},
+		"AbsgameState": {
+			"type": "script",
+			"path": "script/State/AbsgameState.js",
+			"global": true
+		},
+		"bgm": {
+			"type": "audio",
+			"path": "audio/bgm",
+			"systemId": "sound",
+			"duration": 94668,
+			"hint": {
+				"extensions": [
+					".ogg"
+				]
+			}
+		},
+		"hit": {
+			"type": "audio",
+			"path": "audio/hit",
+			"systemId": "sound",
+			"duration": 1123,
+			"hint": {
+				"extensions": [
+					".ogg"
+				]
+			}
+		},
+		"miss": {
+			"type": "audio",
+			"path": "audio/miss",
+			"systemId": "sound",
+			"duration": 1243,
+			"hint": {
+				"extensions": [
+					".ogg"
+				]
+			}
+		},
+		"se copy": {
+			"type": "audio",
+			"path": "audio/se copy",
+			"systemId": "sound",
+			"duration": 250,
+			"hint": {
+				"extensions": [
+					".aac",
+					".ogg"
+				]
+			}
+		},
+		"font_glyphs": {
+			"type": "text",
+			"path": "text/font_glyphs.json"
+		},
+		"Ana": {
+			"type": "script",
+			"path": "script/Char/Ana.js",
+			"global": true
+		},
+		"AnaManager": {
+			"type": "script",
+			"path": "script/CharManager/AnaManager.js",
+			"global": true
+		},
+		"SortGe": {
+			"type": "script",
+			"path": "script/SortGe.js",
+			"global": true
+		},
+		"Mogura": {
+			"type": "script",
+			"path": "script/Char/Mogura.js",
+			"global": true
+		},
+		"MoguraManager": {
+			"type": "script",
+			"path": "script/CharManager/MoguraManager.js",
+			"global": true
+		},
+		"IPoint": {
+			"type": "script",
+			"path": "script/CharManager/IPoint.js",
+			"global": true
+		},
+		"IMoguraState": {
+			"type": "script",
+			"path": "script/CharStateManager/IMoguraState.js",
+			"global": true
+		},
+		"MoguraStateManager": {
+			"type": "script",
+			"path": "script/CharStateManager/MoguraStateManager.js",
+			"global": true
+		},
+		"MoguraUpdateInState": {
+			"type": "script",
+			"path": "script/CharStateManager/MoguraUpdateInState.js",
+			"global": true
+		},
+		"MoguraUpdateOutState": {
+			"type": "script",
+			"path": "script/CharStateManager/MoguraUpdateOutState.js",
+			"global": true
+		},
+		"MoguraUpdateWaitState": {
+			"type": "script",
+			"path": "script/CharStateManager/MoguraUpdateWaitState.js",
+			"global": true
+		},
+		"AbsMoguraUpdateState": {
+			"type": "script",
+			"path": "script/CharStateManager/AbsMoguraUpdateState.js",
+			"global": true
+		},
+		"MoguraUpdatedeadState": {
+			"type": "script",
+			"path": "script/CharStateManager/MoguraUpdatedeadState.js",
+			"global": true
+		},
+		"_MoguraUpdateState": {
+			"type": "script",
+			"path": "script/CharStateManager/_MoguraUpdateState.js",
+			"global": true
+		},
+		"GameState": {
+			"type": "script",
+			"path": "script/State/GameState.js",
+			"global": true
+		},
+		"AssetsIdsObj": {
+			"type": "script",
+			"path": "script/AssetsIdsObj.js",
+			"global": true
+		}
+	},
+	"environment": {
+		"sandbox-runtime": "3",
+		"nicolive": {
+			"supportedModes": [
+				"ranking"
+			],
+			"preferredSessionParameters": {
+				"totalTimeLimit": 82
+			}
+		}
+	},
+	"globalScripts": [
+		"node_modules/@akashic-extension/akashic-timeline/lib/ActionType.js",
+		"node_modules/@akashic-extension/akashic-timeline/lib/Easing.js",
+		"node_modules/@akashic-extension/akashic-timeline/lib/Timeline.js",
+		"node_modules/@akashic-extension/akashic-timeline/lib/Tween.js",
+		"node_modules/@akashic-extension/akashic-timeline/lib/index.js"
+	],
+	"moduleMainScripts": {
+		"@akashic-extension/akashic-timeline": "node_modules/@akashic-extension/akashic-timeline/lib/index.js"
+	}
+}
